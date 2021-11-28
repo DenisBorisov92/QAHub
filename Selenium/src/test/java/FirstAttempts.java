@@ -25,6 +25,9 @@ public class FirstAttempts {
     @Test
     public void testUntitledTestCase() throws Exception {
         driver.get(baseUrl);
+
+        String Ordernumber = driver.findElement(By.id("order-number")).getText();
+
         driver.findElement(By.id("input-card-number")).click();
         driver.findElement(By.id("input-card-number")).clear();
         driver.findElement(By.id("input-card-number")).sendKeys("4000 0000 0000 0002");
@@ -41,7 +44,7 @@ public class FirstAttempts {
         driver.findElement(By.id("action-submit")).click();
         driver.findElement(By.id("success")).click();
 
-        Assert.assertEquals("458211", driver.findElement(By.xpath("//*[@id=\"payment-item-ordernumber\"]/div[2]")).getText());
+        Assert.assertEquals(Ordernumber, driver.findElement(By.xpath("//*[@id=\"payment-item-ordernumber\"]/div[2]")).getText());
     }
 
     @After
