@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c710325-258c-40da-9f2f-79f52e9be02b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FirstAttempts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FirstAttempts.java" afterDir="false" />
-    </list>
+    <list default="true" id="4c710325-258c-40da-9f2f-79f52e9be02b" name="Changes" comment="pr3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,5 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="pr3" />
+    <option name="LAST_COMMIT_MESSAGE" value="pr3" />
   </component>
 </project>
